@@ -1,0 +1,71 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgimg-1 {
+  background-image: url("https://www.roanokeoutside.com/wp-content/uploads/2015/06/hero-hiking1.jpg");
+  min-height: 300px;
+}
+
+.bgimg-2 {
+  background-image: url("https://media.timeout.com/images/100521811/image.jpg");
+  min-height: 300px;
+}
+
+.bgimg-3 {
+  background-image: url("https://image.jimcdn.com/app/cms/image/transf/none/path/sa6549607c78f5c11/image/i0ea8ed3a97286437/version/1510563955/best-snowboard-destinations-in-europe-saalbach-hinterglemm-copyright-ipatov-european-best-destinations.jpg");
+  min-height: 300px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  font-family: "Open Sans Condensed", sans-serif;
+  /* letter-spacing: 3px; */
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  width: 25%;
+  height: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+}
+
+.centerimage {
+  justify-content: center;
+}

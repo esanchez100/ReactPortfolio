@@ -1,0 +1,25 @@
+.card {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .a {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .item {
+    padding: 8px;
+    flex-basis: auto;
+  }
+  .centerimage {
+    justify-self: center;
+  }
+  .formpretty {
+    border: "black solid 2px";
+    padding: 10px;
+    margin: 10px;
+  }

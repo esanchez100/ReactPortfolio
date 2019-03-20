@@ -1,0 +1,1 @@
+const skills = [".Net", "T-SQL", "React", "Javascript", "JQuery", "SQL Server"];
